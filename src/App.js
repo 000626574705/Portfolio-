@@ -1,11 +1,11 @@
 import About from "./components/About";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
+import Project from "./components/Project";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import SocialLinks from "./components/SocialLinks";
-
+  
 
 
 
@@ -17,7 +17,7 @@ function App() {
         <Navbar/>
         <Home/>
         <About/>
-        <Portfolio/>
+        <Project/>
         <Skills/>
         <div className="mt-0"> <Contact/></div>
        

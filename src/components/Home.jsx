@@ -20,9 +20,9 @@ const Home = () => {
                 React, Tailwind , Nodejs also learn Figma for Web designing.
             </p>
             <div >
-                <Link to="Portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
+                <Link to="about" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
                 from-cyan-500 to-blue-500 cursor-pointer'>
-                    Portfolio
+                    more to know
                    <span className='group-hover:rotate-90 duration-300'><BiChevronsRight size={25} className='ml-1'/></span> 
                 </Link>
             </div>

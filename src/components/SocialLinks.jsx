@@ -35,7 +35,7 @@ const SocialLinks = () => {
                 Instagram<BsInstagram size={30}/>
                 </>
             ),
-            href: 'https://www.linkedin.com/mwlite/in/shreeti-kag-b1310822a',
+            href: 'https://www.instagram.com/shreeti___kag/',
             
         },
         {
@@ -55,7 +55,7 @@ const SocialLinks = () => {
                 Resume<BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: '/Shree 1.0 CV.pdf',
+            href: './Shree 1.0 CV.pdf',
             style:'rounded-br-md',
             download:true
             
@@ -73,8 +73,8 @@ const SocialLinks = () => {
       <ul>
         {links.map(({id,child, href, style,download})=>(
           <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 bg-gradient-to-r from-cyan-500 to-blue-500 ml-[-100px] hover:ml-[-10px] hover:rounded-md bg-cyan-500 duration-300"+" "+style}>
-      <a href={links}className='flex justify-between items-center w-full text-white
-      'download={download} target="_blank" rel="noreferrer">
+      <a href={href}className='flex justify-between items-center w-full text-white
+      'download={download} target={links} rel="noreferrer">
        
         {child}
       </a>

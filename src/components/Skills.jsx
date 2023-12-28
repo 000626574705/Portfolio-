@@ -8,6 +8,7 @@
  import sql from "../assets/sql.png";
  import github from "../assets/github.png";
  import tailwind from "../assets/tailwind.png";
+ import docker from "../assets/docker.png";
  
  const Experience = () => {
    const techs = [
@@ -59,6 +60,12 @@
        title: "GitHub",
        style: "shadow-gray-400",
      },
+     {
+      id: 9,
+      src: docker,
+      title: "Docker",
+      style: "shadow-gray-400",
+     }
    ];
  
    return (

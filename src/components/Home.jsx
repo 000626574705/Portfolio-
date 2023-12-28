@@ -12,12 +12,12 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full'>
             <h2 className='text-white text-4xl sm:text-7xl font-bold '>
                 
-                I'm a Frontend Developer
+                I'm a FullStack  Developer
             </h2>
             <p className='text-gray-400 py-4 max-w-md'>
-                I am pursuing B.Tech from IET Indore,
-                Currently I Love to work on web application using technologies like 
-                React, Tailwind , Nodejs also learn Figma for Web designing.
+                I am pursuing Bachelor of Engineering from Institute of Engineerin and Technology, Indore,
+                Currently I work on web application using technologies like 
+                React, Tailwind , Nodejs ,Expressjs,MongoDB, also learn Figma for Web designing.
             </p>
             <div >
                 <Link to="about" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
